@@ -15,7 +15,7 @@ if __name__ == "__main__":
 	bot = DialogBot.get_secure_bot(
 		"hackathon-mob.transmit.im",
 		grpc.ssl_channel_credentials(),
-		"ff2f2565fa9c15b991bff96fa3493d7e4ef1f373"
+		"TOKEN"
 	)
 	bot_owner = None #stores peer and id of bot owner
 	bot.messaging.on_message(on_msg)
